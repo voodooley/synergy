@@ -10,7 +10,7 @@ class Transport:
 
 class Autobus(Transport):
     def seating_capacity(self, capacity=50):
-        return super().seating_capacity(capacity=50)
+        return super().seating_capacity(capacity)
 
 
 bus = Autobus('Renault Logan', 180, 12)
